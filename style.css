@@ -1,0 +1,35 @@
+.main{
+    height: 600px;
+    display: flex;
+     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+
+#outer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     margin: 60px;
+    height: 190px;
+    width: 250px;
+    background-color:red;
+    /* transition: 0.1s ease-out; */
+}
+
+#inner{
+  height: 80px;
+  width: 100px;
+    border-radius: 50%;
+  background-color: cyan;
+  /* transition: 0.1s ease-out; */
+}
+
+#color{
+ cursor: pointer;
+}
+
+#shape{
+    cursor: pointer;
+}
